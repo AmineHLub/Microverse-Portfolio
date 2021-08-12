@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
 * {
-  background-color: #e5e5e5;
+  background-color: #0000;
 }
 
 header {
+  background-color: azure;
   position: fixed;
   top: 0;
-  margin: auto;
   width: 100%;
 
   /* sticky flex nav; from stackoverflow => (fix the parent)  */
@@ -18,9 +18,6 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding-left: 6%;
-  padding-right: 6%;
-  margin-top: 2%;
 }
 
 .wlcm-btn {
@@ -38,6 +35,15 @@ header {
   flex-flow: column wrap;
   align-items: center;
   text-align: center;
+  background-image: url(./bg/9.png), url(/bg/3.png), url(bg/1.png), url(bg/8.png), url(bg/4.png), url(/bg/7.png);
+  background-repeat: no-repeat;
+  background-position: 100% 60%, 100% 7%, 50% 60%, 7% 30%, 30% 90%, 0% 95%;
+}
+
+body {
+  background-image: url(/bg/5.png);
+  background-repeat: no-repeat;
+  background-position: 100% 52%;
 }
 
 h1 {
@@ -72,11 +78,15 @@ h1 {
 
 #socials {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  padding: 25%;
+  background-repeat: no-repeat;
 }
 
 .mediumlogo {
-  margin-top: 0.5vh;
+  margin-top: 0.8vh;
+}
+
+.logos {
+  background-color: rgba(248, 248, 248, 0);
+  padding: 15px;
 }
