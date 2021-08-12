@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
 * {
-  background-color: aliceblue;
+  background-color: #e5e5e5;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.wlcm-btn {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
 }
