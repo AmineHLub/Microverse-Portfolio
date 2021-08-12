@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
-* {
-  background-color: #0000;
-}
-
 header {
   background-color: azure;
   position: fixed;
@@ -13,16 +9,31 @@ header {
   /* sticky flex nav; from stackoverflow => (fix the parent)  */
 }
 
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.nav-container,
+h1,
+.pOne {
   text-align: center;
+}
+
+.nav-container,
+.mainpage,
+#socials {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  justify-content: space-between;
+}
+
+.wlcm-btn,
+h1,
+.pOne {
+  font-family: 'Inter', sans-serif;
 }
 
 .wlcm-btn {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -31,10 +42,7 @@ header {
 }
 
 .mainpage {
-  display: flex;
   flex-flow: column wrap;
-  align-items: center;
-  text-align: center;
   background-image: url(./bg/9.png), url(/bg/3.png), url(bg/1.png), url(bg/8.png), url(bg/4.png), url(/bg/7.png);
   background-repeat: no-repeat;
   background-position: 100% 60%, 100% 7%, 50% 60%, 7% 30%, 30% 90%, 0% 95%;
@@ -47,12 +55,10 @@ body {
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
 }
 
 .name {
@@ -67,26 +73,26 @@ h1 {
 }
 
 .pOne {
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
   color: #172b4d;
 }
 
 #socials {
-  display: flex;
-  align-items: center;
   background-repeat: no-repeat;
+  list-style-type: none;
 }
 
 .mediumlogo {
-  margin-top: 0.8vh;
+  margin-top: 0.7vh;
 }
 
 .logos {
-  background-color: rgba(248, 248, 248, 0);
   padding: 15px;
+}
+
+.temporary-spacer-div {
+  height: 700px;
 }
