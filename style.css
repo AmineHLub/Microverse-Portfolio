@@ -18,6 +18,9 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 2%;
 }
 
 .wlcm-btn {
@@ -65,4 +68,15 @@ h1 {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+}
+
+#socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25%;
+}
+
+.mediumlogo {
+  margin-top: 0.5vh;
 }
