@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
-* {
-  background-color: #e5e5e5;
+.nav-container,
+h1,
+.pOne {
+  text-align: center;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  margin: auto;
-  width: 100%;
-
-  /* sticky flex nav; from stackoverflow => (fix the parent)  */
+.nav-container,
+.mainpage,
+#socials {
+  display: flex;
+  align-items: center;
 }
 
 .nav-container {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding-left: 6%;
-  padding-right: 6%;
-  margin-top: 2%;
+}
+
+.wlcm-btn,
+h1,
+.pOne {
+  font-family: 'Inter', sans-serif;
 }
 
 .wlcm-btn {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -33,24 +32,30 @@ header {
   color: #28352f;
 }
 
+.menu-btn {
+  margin-top: 5px;
+}
+
 .mainpage {
-  display: flex;
   flex-flow: column wrap;
-  align-items: center;
-  text-align: center;
+}
+
+body {
+  background-color: #e5e5e5;
+  background-image: url(/bg/5.png), url(./bg/9.png), url(/bg/3.png), url(bg/1.png), url(bg/8.png), url(bg/4.png), url(/bg/7.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%, 100% 22%, 100% 4%, 50% 10%, 7% 12%, 30% 41%, 0% 42%;
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
 }
 
 .name {
-  margin-top: 15vh;
+  margin-top: 9vh;
   margin-bottom: 0;
   color: #172b4d;
 }
@@ -61,22 +66,27 @@ h1 {
 }
 
 .pOne {
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
   color: #172b4d;
 }
 
 #socials {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 25%;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .mediumlogo {
-  margin-top: 0.5vh;
+  margin-top: 0.6vh;
+}
+
+.logos {
+  padding: 10px;
+}
+
+.temporary-spacer-div {
+  height: 700px;
 }

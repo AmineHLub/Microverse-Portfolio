@@ -24,25 +24,13 @@ This project contains, linter testings html files designed through styles.css
 
 ### Prerequisites
 
-- Internet Connection
+- VSCODE / Live HTTP Server
 
 - OS with Git installed on it
 
 ### Setup
 
 **Run** git clone https://github.com/AmineHLub/Microverse-Portfolio.git
-
-### Install
-
-no installation required
-
-### Usage
-
-This is a mini project (index.html)
-
-### Run tests
-
-**Run** index.html
 
 
 ## Author
