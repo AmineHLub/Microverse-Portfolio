@@ -39,7 +39,6 @@
 
 .articles,
 .article-aboutme {
-  justify-content: center;
   display: grid;
   background: #ebf0ee;
   border: 1px solid #000;
