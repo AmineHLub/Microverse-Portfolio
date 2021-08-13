@@ -59,7 +59,6 @@
   background-image: url(./cards/abtme_background1.png), url(cards/abtme_background2.png);
   background-repeat: no-repeat;
   background-position: 100% 0%, 0% 100%;
-  margin-bottom: 10px;
 }
 
 #about-me p {
