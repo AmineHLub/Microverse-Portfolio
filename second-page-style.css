@@ -1,0 +1,62 @@
+.header-layout,
+.layout {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.header-layout {
+  margin-bottom: 50px;
+}
+
+.scroll-down {
+  margin-top: 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dfe1e6;
+  border-radius: 32px;
+  background-color: #e5e5e5;
+  background-image: url(./src/Union.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.scroll-down:hover {
+  border: 1px solid #4ad8e2;
+}
+
+.recent {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.layout {
+  grid-row-gap: 60px;
+}
+
+.articles,
+.article-aboutme {
+  justify-content: center;
+  display: grid;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  width: 327px;
+  height: 474px;
+  background-color: #172b4d;
+}
+
+.articles {
+  grid-template-rows: 55% 15% 15% 15%;
+}
+
+.article-aboutme {
+  grid-template-rows: 25% 55% 20%;
+}
+
+#about-me {
+  margin-top: 60px;
+}
