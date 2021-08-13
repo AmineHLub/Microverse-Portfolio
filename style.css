@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
-header {
-  background-color: azure;
-  position: fixed;
-  top: 0;
-  width: 100%;
-
-  /* sticky flex nav; from stackoverflow => (fix the parent)  */
-}
-
 .nav-container,
 h1,
 .pOne {
@@ -41,17 +32,19 @@ h1,
   color: #28352f;
 }
 
+.menu-btn {
+  margin-top: 5px;
+}
+
 .mainpage {
   flex-flow: column wrap;
-  background-image: url(./bg/9.png), url(/bg/3.png), url(bg/1.png), url(bg/8.png), url(bg/4.png), url(/bg/7.png);
-  background-repeat: no-repeat;
-  background-position: 100% 60%, 100% 7%, 50% 60%, 7% 30%, 30% 90%, 0% 95%;
 }
 
 body {
-  background-image: url(/bg/5.png);
+  background-color: #e5e5e5;
+  background-image: url(/bg/5.png), url(./bg/9.png), url(/bg/3.png), url(bg/1.png), url(bg/8.png), url(bg/4.png), url(/bg/7.png);
   background-repeat: no-repeat;
-  background-position: 100% 52%;
+  background-position: 100% 50%, 100% 22%, 100% 4%, 50% 10%, 7% 12%, 30% 41%, 0% 42%;
 }
 
 h1 {
@@ -62,7 +55,7 @@ h1 {
 }
 
 .name {
-  margin-top: 15vh;
+  margin-top: 9vh;
   margin-bottom: 0;
   color: #172b4d;
 }
@@ -83,10 +76,11 @@ h1 {
 #socials {
   background-repeat: no-repeat;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .mediumlogo {
-  margin-top: 0.7vh;
+  margin-top: 0.6vh;
 }
 
 .logos {
