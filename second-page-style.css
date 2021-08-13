@@ -37,16 +37,24 @@
   grid-row-gap: 60px;
 }
 
-.articles {
+.articles,
+.article-aboutme {
   justify-content: center;
   display: grid;
-  grid-template-rows: 55% 25% 20%;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   width: 327px;
   height: 474px;
   background-color: #172b4d;
+}
+
+.articles {
+  grid-template-rows: 55% 25% 20%;
+}
+
+.article-aboutme {
+  grid-template-rows: 25% 55% 20%;
 }
 
 #about-me {
