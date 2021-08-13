@@ -29,7 +29,7 @@
   color: #172b4d;
 }
 
-.my-projects {
+.layout {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -46,4 +46,8 @@
   width: 327px;
   height: 474px;
   background-color: #172b4d;
+}
+
+#about-me {
+    margin-top: 60px;
 }
