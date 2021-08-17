@@ -3,8 +3,11 @@
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 25px 0 25px;
+  background-image: url(./cards/Shape.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
+
 .contact-title {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -14,24 +17,33 @@
   text-align: center;
   color: #172b4d;
 }
+
 .input {
-    background: #FFFFFF;
-/* Theme 2 / Neutral 9 */
-
-border: 1px solid #D0D9D4;
-box-sizing: border-box;
-border-radius: 4px;
-width: 85%;
-margin-top: 20px;
-
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 98%;
+  margin-top: 20px;
 }
-.input-email, .input-name{
+
+.input-email,
+.input-name {
   height: 35px;
-  border: #D0D9D4;
+  border: #d0d9d4;
   padding: 15px;
 }
 
-.input-message{
-    height: 110px;
-    padding: 12px;
+.input-message {
+  height: 110px;
+  padding: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #60c095;
+}
+
+.my-email {
+  margin-top: 0;
+  text-decoration: none;
+  color: #172b4d;
+  margin-bottom: 200px;
 }
