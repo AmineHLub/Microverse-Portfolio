@@ -55,7 +55,7 @@
   display: flex;
   flex-flow: column wrap;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   background-image: url(./cards/abtme_background1.png), url(./cards/abtme_background2.png);
   background-repeat: no-repeat;
   background-position: 100% 0%, 0% 100%;
@@ -79,4 +79,36 @@
 .resume-btn {
   margin-left: 25%;
   margin-right: 25%;
+}
+
+.new-logo {
+  filter: drop-shadow(0 0 0.95rem rgb(255, 255, 255));
+}
+
+.new-header {
+  align-self: flex-start;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.lng-new {
+  align-self: flex-start;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.lang-btns-new {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
 }
