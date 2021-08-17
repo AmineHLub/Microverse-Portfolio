@@ -1,0 +1,37 @@
+.contact-container-flex {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px 0 25px;
+}
+.contact-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+.input {
+    background: #FFFFFF;
+/* Theme 2 / Neutral 9 */
+
+border: 1px solid #D0D9D4;
+box-sizing: border-box;
+border-radius: 4px;
+width: 85%;
+margin-top: 20px;
+
+}
+.input-email, .input-name{
+  height: 35px;
+  border: #D0D9D4;
+  padding: 15px;
+}
+
+.input-message{
+    height: 110px;
+    padding: 12px;
+}
