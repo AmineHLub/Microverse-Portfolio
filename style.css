@@ -9,7 +9,8 @@ h1,
 .languages,
 .nav-container,
 .mainpage,
-#socials {
+#socials,
+#socials2 {
   display: flex;
   align-items: center;
 }
@@ -43,9 +44,9 @@ h1,
 
 body {
   background-color: #e5e5e5;
-  background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg8.png), url(./bg4.png), url(./bg/7.png);
+  background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg/7.png), url(./bg/4.png), url(./bg/8.png), url(./cards/Frame.png);
   background-repeat: no-repeat;
-  background-position: 100% 23%, 100% 10%, 100% 2%, 50% 2%, 7% 6%, 30% 19%, 0% 19%;
+  background-position: 100% 40rem, 100% 17rem, 100% 3rem, 50% 3rem, 0% 32rem, 30% 33.5rem, 5% 11rem, 100% 300rem;
 }
 
 h1 {
@@ -75,7 +76,8 @@ h1 {
 }
 
 .languages,
-#socials {
+#socials,
+#socials2 {
   background-repeat: no-repeat;
   list-style-type: none;
   padding-left: 0;

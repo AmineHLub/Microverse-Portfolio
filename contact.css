@@ -1,0 +1,49 @@
+.contact-container-flex {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./cards/Shape.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+.contact-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 98%;
+  margin-top: 20px;
+}
+
+.input-email,
+.input-name {
+  height: 35px;
+  border: #d0d9d4;
+  padding: 15px;
+}
+
+.input-message {
+  height: 110px;
+  padding: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #60c095;
+}
+
+.my-email {
+  margin-top: 0;
+  text-decoration: none;
+  color: #172b4d;
+  margin-bottom: 200px;
+}
