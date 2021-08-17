@@ -34,9 +34,10 @@
 }
 
 .layout {
-  grid-row-gap: 60px;
+  grid-row-gap: 30px;
 }
 
+.features,
 .articles,
 .article-aboutme {
   display: grid;
@@ -50,4 +51,9 @@
 
 .articles {
   grid-template-rows: 55% 15% 15% 15%;
+}
+
+.features {
+  grid-template-rows: 45% 15% 35%;
+  height: 375px;
 }
