@@ -81,6 +81,15 @@
   .resume-btn {
     margin-left: 25%;
     margin-right: 25%;
+    height: 70px;
+    width: 150px;
+    align-self: center;
+  }
+
+  #my-skills {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto 5% auto 5%;
   }
 
   .new-logo {
