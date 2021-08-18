@@ -61,9 +61,12 @@
       url(/dsk-bg/Group\ 35.png),
       url(/dsk-bg/Group\ 36.png),
       url(/dsk-bg/Group\ 37.png),
-      url(/dsk-bg/Group\ 38.png);
+      url(/dsk-bg/Group\ 38.png),
+      url(../dsk-bg/frame_bot0.png),
+      url(../dsk-bg/Frame_bot1.png),
+      url(../dsk-bg/frame_bot2.png);
     background-repeat: no-repeat;
-    background-position: 75% 0, 40% 38rem, 77% 42rem, 0.75% 10rem, 50% 2rem, 100% 4rem, 20% 43rem, 30% 4rem;
+    background-position: 75% 0, 40% 38rem, 77% 42rem, 0.75% 10rem, 50% 2rem, 100% 4rem, 20% 43rem, 30% 4rem, 0% 95%, 20% 93%, 100% 95%;
   }
 
   h1 {

@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
   .contact-container form {
-    margin: 150px 20% auto 20%;
+    margin: 70px 10% auto 10%;
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: repeat(2, 1fr);
@@ -14,7 +14,11 @@
   }
 
   .contact-title {
-    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    margin-top: 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
