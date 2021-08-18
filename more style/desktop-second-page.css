@@ -63,3 +63,12 @@
   grid-template-rows: 45% 15% 35%;
   height: 375px;
 }
+
+.column-grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+  height: 1000px;
+  margin: 0 10% 0 10%;
+}
