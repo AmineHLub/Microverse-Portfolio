@@ -52,6 +52,7 @@
 
   .articles {
     grid-template-rows: 55% 15% 15% 15%;
+    margin-bottom: 30px;
   }
 
   .features {
