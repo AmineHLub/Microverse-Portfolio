@@ -49,9 +49,9 @@
 
   body {
     background-color: #e5e5e5;
-    background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg/7.png), url(./bg/4.png), url(./bg/8.png), url(./cards/Frame.png);
+    background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg/7.png), url(./bg/4.png), url(./bg/8.png), url(./cards/Frame.png), url(./cards/Shape.png);
     background-repeat: no-repeat;
-    background-position: 100% 40rem, 100% 17rem, 100% 3rem, 50% 3rem, 0% 32rem, 30% 33.5rem, 5% 11rem, 100% 300rem;
+    background-position: 100% 40rem, 100% 17rem, 100% 3rem, 50% 3rem, 0% 32rem, 30% 33.5rem, 5% 11rem, 100% 300rem, 50% 99.8%;
   }
 
   h1 {

@@ -4,9 +4,6 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background-image: url(./cards/Shape.png);
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
   }
 
   .contact-title {
@@ -48,4 +45,8 @@
     color: #172b4d;
     margin-bottom: 200px;
   }
+}
+
+#socials2 {
+  flex-flow: row wrap;
 }
