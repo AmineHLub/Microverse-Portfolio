@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
-.desk-nav {
-  visibility: collapse;
-}
-
 .nav-container,
 h1,
 .pOne {
@@ -16,29 +12,32 @@ h1,
 #socials {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .nav-container {
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 0 28% 0 25%;
+}
+
+.desk-nav {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 32px;
+  color: #344563;
 }
 
 .wlcm-btn,
+.menu-btn {
+  visibility: hidden;
+}
+
 h1,
 .pOne {
   font-family: 'Inter', sans-serif;
-}
-
-.wlcm-btn {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  color: #28352f;
-}
-
-.menu-btn {
-  margin-top: 5px;
 }
 
 .mainpage {
