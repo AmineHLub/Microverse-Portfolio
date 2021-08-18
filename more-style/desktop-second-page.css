@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .header-layout,
   .layout {
     display: flex;
@@ -7,7 +7,12 @@
   }
 
   .header-layout {
+    margin-top: 2rem;
     margin-bottom: 50px;
+  }
+
+  .header-layout img {
+    visibility: hidden;
   }
 
   .scroll-down {
@@ -16,10 +21,11 @@
     height: 40px;
     border: 1px solid #dfe1e6;
     border-radius: 32px;
-    background-color: #e5e5e5;
-    background-image: url(./src/Union.png);
+    background-color: #e5e5ee;
+    background-image: url(../src/Union.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    margin-bottom: 30rem;
   }
 
   .scroll-down:hover {
@@ -57,5 +63,14 @@
   .features {
     grid-template-rows: 45% 15% 35%;
     height: 375px;
+  }
+
+  .column-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    height: 1000px;
+    margin: 0 10% 0 10%;
   }
 }
