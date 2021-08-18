@@ -57,7 +57,7 @@
     flex-flow: column wrap;
     margin-top: 0;
     margin-bottom: 50px;
-    background-image: url(./cards/abtme_background1.png), url(./cards/abtme_background2.png);
+    background-image: url(../dsk-bg/abtme2.png), url(../dsk-bg/abtme1.png);
     background-repeat: no-repeat;
     background-position: 100% 0%, 0% 100%;
   }
@@ -70,6 +70,7 @@
     line-height: 32px;
     text-align: center;
     color: #42526e;
+    margin: 20px 20% 10px 20%;
   }
 
   #about-me h1 {

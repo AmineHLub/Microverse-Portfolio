@@ -38,6 +38,7 @@
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
+    margin-bottom: 0;
   }
 
   .layout {
@@ -71,6 +72,12 @@
     grid-template-rows: 1fr 1fr;
     column-gap: 30px;
     height: 1000px;
-    margin: 0 10% 0 10%;
+    margin: 0 10% 0 7%;
+  }
+
+  .flexible-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }
 }
