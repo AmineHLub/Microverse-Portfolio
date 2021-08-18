@@ -35,6 +35,11 @@ h1,
   visibility: hidden;
 }
 
+.upper {
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
 h1,
 .pOne {
   font-family: 'Inter', sans-serif;
@@ -42,13 +47,22 @@ h1,
 
 .mainpage {
   flex-flow: column wrap;
+  margin-top: 60px;
 }
 
 body {
   background-color: #e5e5e5;
-  background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg/7.png), url(./bg/4.png), url(./bg/8.png), url(./cards/Frame.png);
+  background-image:
+    url(/dsk-bg/Frame-1.png),
+    url(/dsk-bg/Frame-2.png),
+    url(/dsk-bg/Frame-3.png),
+    url(/dsk-bg/Frame.png),
+    url(/dsk-bg/Group\ 35.png),
+    url(/dsk-bg/Group\ 36.png),
+    url(/dsk-bg/Group\ 37.png),
+    url(/dsk-bg/Group\ 38.png);
   background-repeat: no-repeat;
-  background-position: 100% 40rem, 100% 17rem, 100% 3rem, 50% 3rem, 0% 32rem, 30% 33.5rem, 5% 11rem, 100% 300rem;
+  background-position: 75% 0, 40% 38rem, 77% 42rem, 0.75% 10rem, 0.75% 2rem, 100% 4rem, 20% 43rem, 30% 4rem;
 }
 
 h1 {
@@ -67,6 +81,7 @@ h1 {
 .detail {
   color: #36b37f;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .pOne {
