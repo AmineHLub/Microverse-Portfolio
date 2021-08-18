@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
   .contact-container form {
-    margin: 70px 10% auto 10%;
+    margin: 100px 10% auto 10%;
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: repeat(2, 1fr);
