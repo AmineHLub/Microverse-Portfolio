@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 764px) {
   .flexible-items-inside-grid {
     display: flex;
     flex-flow: row wrap;
@@ -49,6 +49,8 @@
     margin: 2px;
     border: none;
     color: #fff;
+    width: 122px;
+    height: 48px;
     background-color: #36b37f;
   }
 
@@ -81,8 +83,8 @@
   .resume-btn {
     margin-left: 25%;
     margin-right: 25%;
-    height: 70px;
-    width: 150px;
+    height: 48px;
+    width: 159px;
     align-self: center;
   }
 
