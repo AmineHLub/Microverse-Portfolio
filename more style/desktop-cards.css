@@ -1,114 +1,116 @@
-.flexible-items-inside-grid {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-}
+@media only screen and (min-width: 768px) {
+  .flexible-items-inside-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-.project-logo {
-  width: 80%;
-  height: 90%;
-  border-radius: 8px;
-}
+  .project-logo {
+    width: 80%;
+    height: 90%;
+    border-radius: 8px;
+  }
 
-.project-name {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  color: #3a4a42;
-  text-align: center;
-}
+  .project-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3a4a42;
+    text-align: center;
+  }
 
-.lang-btns {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 3%;
-  padding: 12px 8px 12px 8px;
-  border-radius: 7px;
-  margin: 2px;
-  border: none;
-}
+  .lang-btns {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    padding: 12px 8px 12px 8px;
+    border-radius: 7px;
+    margin: 2px;
+    border: none;
+  }
 
-.lang-btns:hover,
-.lang-btns:active {
-  border: 2px solid #3a4a42;
-}
+  .lang-btns:hover,
+  .lang-btns:active {
+    border: 2px solid #3a4a42;
+  }
 
-.prjct-btn {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  padding: 12px 8px 12px 8px;
-  border-radius: 7px;
-  margin: 2px;
-  border: none;
-  color: #fff;
-  background-color: #36b37f;
-}
+  .prjct-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    padding: 12px 8px 12px 8px;
+    border-radius: 7px;
+    margin: 2px;
+    border: none;
+    color: #fff;
+    background-color: #36b37f;
+  }
 
-#about-me {
-  display: flex;
-  flex-flow: column wrap;
-  margin-top: 0;
-  margin-bottom: 50px;
-  background-image: url(./cards/abtme_background1.png), url(./cards/abtme_background2.png);
-  background-repeat: no-repeat;
-  background-position: 100% 0%, 0% 100%;
-}
+  #about-me {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 0;
+    margin-bottom: 50px;
+    background-image: url(./cards/abtme_background1.png), url(./cards/abtme_background2.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%, 0% 100%;
+  }
 
-#about-me p {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  color: #42526e;
-}
+  #about-me p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+  }
 
-#about-me h1 {
-  margin-top: 60px;
-  margin-bottom: 0;
-}
+  #about-me h1 {
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
 
-.resume-btn {
-  margin-left: 25%;
-  margin-right: 25%;
-}
+  .resume-btn {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
-.new-logo {
-  filter: drop-shadow(0 0 0.95rem rgb(255, 255, 255));
-}
+  .new-logo {
+    filter: drop-shadow(0 0 0.95rem rgb(255, 255, 255));
+  }
 
-.new-header {
-  align-self: flex-start;
-  margin-top: 0;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: #344563;
-}
+  .new-header {
+    align-self: flex-start;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #344563;
+  }
 
-.lng-new {
-  align-self: flex-start;
-  margin-top: 0;
-  flex-wrap: wrap;
-}
+  .lng-new {
+    align-self: flex-start;
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
 
-.lang-btns-new {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #36b37e;
+  .lang-btns-new {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #36b37e;
+  }
 }
