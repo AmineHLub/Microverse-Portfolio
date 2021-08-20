@@ -101,6 +101,7 @@
       transform: rotateY(360deg);
       filter: sepia(100%) hue-rotate(190deg) saturate(500%);
     }
+
     to {
       transform: rotateY(0deg);
     }
@@ -120,15 +121,31 @@
 
   body {
     background-color: #e5e5e5;
-    background-image: url(/dsk-bg/Frame-1.png), url(/dsk-bg/Frame-2.png),
-      url(/dsk-bg/Frame-3.png), url(/dsk-bg/Frame.png),
-      url(/dsk-bg/Group\ 35.png), url(/dsk-bg/Group\ 36.png),
-      url(/dsk-bg/Group\ 37.png), url(/dsk-bg/Group\ 38.png),
-      url(../dsk-bg/frame_bot0.png), url(../dsk-bg/Frame_bot1.png),
+    background-image:
+      url(/dsk-bg/Frame-1.png),
+      url(/dsk-bg/Frame-2.png),
+      url(/dsk-bg/Frame-3.png),
+      url(/dsk-bg/Frame.png),
+      url(/dsk-bg/Group\ 35.png),
+      url(/dsk-bg/Group\ 36.png),
+      url(/dsk-bg/Group\ 37.png),
+      url(/dsk-bg/Group\ 38.png),
+      url(../dsk-bg/frame_bot0.png),
+      url(../dsk-bg/Frame_bot1.png),
       url(../dsk-bg/frame_bot2.png);
     background-repeat: no-repeat;
-    background-position: 75% 0, 40% 38rem, 77% 42rem, 0.75% 10rem, 50% 2rem,
-      100% 4rem, 20% 43rem, 30% 4rem, 0% 95%, 20% 93%, 100% 95%;
+    background-position:
+      75% 0,
+      40% 38rem,
+      77% 42rem,
+      0.75% 10rem,
+      50% 2rem,
+      100% 4rem,
+      20% 43rem,
+      30% 4rem,
+      0% 95%,
+      20% 93%,
+      100% 95%;
   }
 
   h1 {
@@ -179,15 +196,18 @@
       transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
       transform: translateY(0);
     }
+
     40%,
     43% {
       transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
       transform: translateY(-30px);
     }
+
     70% {
       transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
       transform: translateY(-15px);
     }
+
     90% {
       transform: translateY(-4px);
     }
