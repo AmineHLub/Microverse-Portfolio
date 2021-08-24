@@ -54,6 +54,10 @@
     background-color: #36b37f;
   }
 
+  .prjct-btn:hover {
+    background-color: #25885e;
+  }
+
   #about-me {
     display: flex;
     flex-flow: column wrap;
@@ -123,6 +127,6 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #36b37e;
+    color: #25885e;
   }
 }
