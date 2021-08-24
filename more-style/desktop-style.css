@@ -135,14 +135,14 @@
   body {
     background-color: #e5e5e5;
     background-image:
-      url(/dsk-bg/Frame-1.png),
-      url(/dsk-bg/Frame-2.png),
-      url(/dsk-bg/Frame-3.png),
-      url(/dsk-bg/Frame.png),
-      url(/dsk-bg/Group\ 35.png),
-      url(/dsk-bg/Group\ 36.png),
-      url(/dsk-bg/Group\ 37.png),
-      url(/dsk-bg/Group\ 38.png),
+      url(../dsk-bg/Frame-1.png),
+      url(../dsk-bg/Frame-2.png),
+      url(../dsk-bg/Frame-3.png),
+      url(../dsk-bg/Frame.png),
+      url(../dsk-bg/Group\ 35.png),
+      url(../dsk-bg/Group\ 36.png),
+      url(../dsk-bg/Group\ 37.png),
+      url(../dsk-bg/Group\ 38.png),
       url(../dsk-bg/frame_bot0.png),
       url(../dsk-bg/Frame_bot1.png),
       url(../dsk-bg/frame_bot2.png);
