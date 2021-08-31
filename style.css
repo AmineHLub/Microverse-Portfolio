@@ -3,7 +3,57 @@
 
 @media only screen and (max-width: 765px) {
   .desk-nav {
-    visibility: collapse;
+    display: none;
+  }
+
+  body {
+    background: #e5e5e5;
+    background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg/7.png), url(./bg/4.png), url(./bg/8.png), url(./cards/Frame.png), url(./cards/Shape.png);
+    background-repeat: no-repeat;
+    background-position: 100% 38rem, 100% 15rem, 100% 3rem, 50% 3rem, 0% 32rem, 30% 34rem, 5% 11rem, 100% 97%, 50% 99.8%;
+  }
+
+  .whole-wrapper {
+    display: block;
+  }
+
+  .close-ham-img {
+    float: right;
+    margin: 2rem 3% 0 0;
+  }
+
+  .hamburger-page {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: #e5e5e5;
+    background-image: url(./cards/Shape.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .hamb-page-elements {
+    display: flex;
+    margin: 5rem 9% 0 9%;
+  }
+
+  .ul-items {
+    color: #3a4a42;
+    text-decoration: none;
+  }
+
+  .menu-inside-hamb-page {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    list-style-type: none;
   }
 
   .nav-container,
@@ -46,13 +96,6 @@
 
   .mainpage {
     flex-flow: column wrap;
-  }
-
-  body {
-    background-color: #e5e5e5;
-    background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg/7.png), url(./bg/4.png), url(./bg/8.png), url(./cards/Frame.png), url(./cards/Shape.png);
-    background-repeat: no-repeat;
-    background-position: 100% 40rem, 100% 17rem, 100% 3rem, 50% 3rem, 0% 32rem, 30% 31.5rem, 5% 11rem, 100% 97%, 50% 99.8%;
   }
 
   h1 {
