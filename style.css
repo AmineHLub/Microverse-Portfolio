@@ -6,6 +6,15 @@
     display: none;
   }
 
+  .rounded {
+    background-color: #fff;
+    border-radius: 0 0 30px 30px;
+    border: 1px solid rgba(61, 61, 61, 0);
+    height: 90%;
+    mix-blend-mode: normal;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
   body {
     background: #e5e5e5;
     background-image: url(./bg/5.png), url(./bg/9.png), url(./bg/3.png), url(./bg/1.png), url(./bg/7.png), url(./bg/4.png), url(./bg/8.png), url(./cards/Frame.png), url(./cards/Shape.png);
