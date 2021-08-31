@@ -180,6 +180,10 @@
     margin-bottom: 0;
   }
 
+  .hamburger-page {
+    display: none;
+  }
+
   .pOne {
     font-style: normal;
     font-weight: normal;
