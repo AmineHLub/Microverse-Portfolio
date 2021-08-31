@@ -1,9 +1,7 @@
 const mainPage = document.querySelector('.hamburger-page');
 const closeMenu = document.querySelector('.close-ham-img');
 const openMenu = document.querySelector ('.menu-btn');
-
-openMenu.addEventListener ('click', show);
-closeMenu.addEventListener ('click', close);
+const hambPage = document.querySelector ('.menu-inside-hamb-page');
 
 function show() {
 
@@ -17,3 +15,7 @@ function close() {
     mainPage.style.display="none";
     document.getElementById('whole-wrapper').style.display="block";
 }
+
+openMenu.addEventListener ('click', show);
+closeMenu.addEventListener ('click', close);
+hambPage.addEventListener('click', close);
