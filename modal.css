@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  width: 100%;
+  width: 90%;
   justify-content: flex-start;
   height: 622px;
   background-color: white;
@@ -65,12 +65,18 @@
 }
 
 .modal-container .modal-logo {
-  width: 100%;
+  width: 300px;
+  margin: 30px auto 15px;
+
+  
 }
 
-.model-container a.close-model {
-  height: 30px;
+.modal-container .child-modal-container .close-modal .modal-closeX {
   background: black;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 65px;
 }
 
 @media screen and (min-width: 768px) {
@@ -80,6 +86,7 @@
     grid-template-rows: 6fr repeat(2, 2fr) 4fr;
     grid-column-gap: 0;
     grid-row-gap: 0;
+    
   }
 
   .modal-container .modal-logo {
@@ -104,10 +111,7 @@
   .modal-container .modal-description {
     grid-area: 4 / 1 / 5 / 6;
     order: 4;
+    width: 80%;
   }
 
-  .modal-container .child-modal-container .close-modal .modal-closeX {
-    background: black;
-    height: 20px;
-  }
 }

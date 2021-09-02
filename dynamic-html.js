@@ -91,6 +91,9 @@ for (let j = 8; j < 8 + iterationJ; j += 1) {
 }
 
 // eslint-disable-next-line no-unused-vars
+function closeModal() {
+  document.querySelector('.modal-container').style.display = 'none';
+}
 
 function modalCreation(number) {
   // get rid of the previous Modal
@@ -124,6 +127,7 @@ function modalCreation(number) {
   ul.classList.add('modal-ul');
   // Logic & Section creation
   modalSection.appendChild(divCont);
+  divCont.appendChild(logoImg);
   divCont.appendChild(firstCont);
   firstCont.appendChild(closeXLink);
   closeXLink.appendChild(closeX);
@@ -131,7 +135,8 @@ function modalCreation(number) {
   divDesk.appendChild(buttonsCont);
   closeXLink.href = '#';
   closeX.src = arr[number].close;
-  // logoImg.src = arr[number].logo;
+  logoImg.src = arr[number].logo;
+
   // Background-Image
   divCont.appendChild(header);
   header.innerText = arr[number].title;
@@ -149,4 +154,10 @@ function modalCreation(number) {
   }
   document.querySelectorAll('.modal-buttonsCont > button')[0].innerText = 'See Live';
   document.querySelectorAll('.modal-buttonsCont > button')[1].innerText = 'Source';
+
+  const closefun = document.querySelector('.close-modal');
+  closefun.addEventListener('click',closeModal);
 }
+
+
+
