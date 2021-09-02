@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  width: 90%;
+  width: 100%;
   justify-content: flex-start;
   height: 622px;
   background-color: white;
@@ -75,5 +75,24 @@
 
 @media screen and (min-width: 768px) {
 
+  .modal-container .modal-header {
 
+    width: 589px;
+
+  }
+  .modal-container .modal-langs .modal-ul {
+    order: 1;
+  }
+
+  .modal-container .modal-buttonsCont {
+    order: 1;
+  }
+
+  .modal-container .modal-langs {
+    order: 3;
+  }
+
+  .modal-container .modal-description {
+    order: 4;
+  }
 }

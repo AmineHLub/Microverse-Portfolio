@@ -91,6 +91,7 @@ for (let j = 8; j < 8 + iterationJ; j += 1) {
 }
 
 // eslint-disable-next-line no-unused-vars
+
 function modalCreation(number) {
   // get rid of the previous Modal
   const divContExists = document.getElementsByClassName('modal-container');
@@ -125,8 +126,10 @@ function modalCreation(number) {
   firstCont.appendChild(closeXLink);
   closeXLink.appendChild(closeX);
   closeXLink.href = '#';
+  closeXLink.onclick = close();
   closeX.src = arr[number].close;
-  // Background Image
+  // logoImg.src = arr[number].logo;
+  // Background-Image
   divCont.appendChild(header);
   header.innerText = arr[number].title;
   divCont.appendChild(technology);
@@ -144,11 +147,3 @@ function modalCreation(number) {
   document.querySelectorAll('.modal-buttonsCont > button')[0].innerText = 'See Live';
   document.querySelectorAll('.modal-buttonsCont > button')[1].innerText = 'Source';
 }
-
-const closed = document.querySelector('.modal-closeX');
-const container = document.querySelector('.modal-container');
-
-function close() {
-  container.style.display = 'none';
-}
-closed.addEventLisetener('click', close);
