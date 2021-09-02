@@ -14,7 +14,7 @@ const arr = [
   {
     close: './project-images/Icon.png',
     logo: './project-images/two.png',
-    title: 'Project 2',
+    title: 'Keeping track of hundreds of components',
     tech: ['ReactJS', 'Flask', 'Html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae accusamus minima et officiis vel, unde cum saepe officia, iusto eaque doloremque commodi quisquam rem nisi error illum ipsa repellat!',
     id: '2',
@@ -105,6 +105,7 @@ function modalCreation(number) {
   const closeXLink = document.createElement('a');
   const ul = document.createElement('ul');
   const logoImg = document.createElement('img');
+  const divDesk = document.createElement('div');
   const header = document.createElement('h1');
   const technology = document.createElement('div');
   const description = document.createElement('p');
@@ -114,6 +115,7 @@ function modalCreation(number) {
   firstCont.classList.add('child-modal-container');
   closeX.classList.add('modal-closeX');
   logoImg.classList.add('modal-logo');
+  divDesk.classList.add('modal-desk');
   header.classList.add('modal-header');
   technology.classList.add('modal-langs');
   description.classList.add('modal-description');
@@ -125,8 +127,9 @@ function modalCreation(number) {
   divCont.appendChild(firstCont);
   firstCont.appendChild(closeXLink);
   closeXLink.appendChild(closeX);
+  divDesk.appendChild(header);
+  divDesk.appendChild(buttonsCont);
   closeXLink.href = '#';
-  closeXLink.onclick = close();
   closeX.src = arr[number].close;
   // logoImg.src = arr[number].logo;
   // Background-Image
