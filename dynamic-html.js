@@ -4,7 +4,7 @@ const arr = [
   {
     close: './project-images/Icon.png',
     logo: './project-images/one.png',
-    title: 'Project 1',
+    title: 'Keeping track of hundreds of components',
     tech: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae accusamus minima et officiis vel, unde cum saepe officia, iusto eaque doloremque commodi quisquam rem nisi error illum ipsa repellat!',
     id: '1',
@@ -126,6 +126,7 @@ function modalCreation(number) {
   closeXLink.appendChild(closeX);
   closeXLink.href = '#';
   closeX.src = arr[number].close;
+  // Background Image
   divCont.appendChild(header);
   header.innerText = arr[number].title;
   divCont.appendChild(technology);
@@ -143,3 +144,11 @@ function modalCreation(number) {
   document.querySelectorAll('.modal-buttonsCont > button')[0].innerText = 'See Live';
   document.querySelectorAll('.modal-buttonsCont > button')[1].innerText = 'Source';
 }
+
+const closed = document.querySelector('.modal-closeX');
+const container = document.querySelector('.modal-container');
+
+function close() {
+  container.style.display = 'none';
+}
+closed.addEventLisetener('click', close);
