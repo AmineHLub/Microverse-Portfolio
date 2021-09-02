@@ -152,12 +152,10 @@ function modalCreation(number) {
   for (let i = 0; i < 2; i += 1) {
     (buttonsCont).appendChild(document.createElement('button'));
   }
-  document.querySelectorAll('.modal-buttonsCont > button')[0].innerText = 'See Live';
-  document.querySelectorAll('.modal-buttonsCont > button')[1].innerText = 'Source';
+  // document.querySelectorAll('.modal-buttonsCont > button')[0].innerText = 'See Live';
+  document.querySelectorAll('.modal-buttonsCont > button')[0].innerHTML = "See Live <img src='./src/seelive.svg'>";
+  document.querySelectorAll('.modal-buttonsCont > button')[1].innerHTML= "Source <img src='./src/source.png'>";
 
   const closefun = document.querySelector('.close-modal');
-  closefun.addEventListener('click',closeModal);
+  closefun.addEventListener('click', closeModal);
 }
-
-
-
