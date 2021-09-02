@@ -1,15 +1,5 @@
 // section Created
 
-const modalSection = document.createElement('section');
-
-document.querySelector('body').insertBefore(modalSection, document.querySelector('body').firstChild);
-// modalSection.appendChild(divCont);
-// divCont.appendChild(logoImg);
-// divCont.appendChild(header);
-// divCont.appendChild(technology);
-// divCont.appendChild(description);
-// divCont.appendChild(buttonsCont);
-
 const arr = [
   {
     close: './project-images/Icon.png',
@@ -100,14 +90,18 @@ for (let j = 8; j < 8 + iterationJ; j += 1) {
   document.querySelectorAll('li')[j].innerText = arr2[j - 7];
 }
 
+// eslint-disable-next-line no-unused-vars
 function modalCreation(number) {
-// get rid of the previous Modal
+  // get rid of the previous Modal
   const divContExists = document.getElementsByClassName('modal-container');
   if (divContExists.length) divContExists[0].remove();
+  const modalSection = document.createElement('section');
+  document.querySelector('body').insertBefore(modalSection, document.querySelector('body').firstChild);
   // HTML elements creation (not needed)
   const firstCont = document.createElement('div');
   const divCont = document.createElement('div');
   const closeX = document.createElement('img');
+  const closeXLink = document.createElement('a');
   const ul = document.createElement('ul');
   const logoImg = document.createElement('img');
   const header = document.createElement('h1');
@@ -123,11 +117,14 @@ function modalCreation(number) {
   technology.classList.add('modal-langs');
   description.classList.add('modal-description');
   buttonsCont.classList.add('modal-buttonsCont');
+  closeXLink.classList.add('close-modal');
   ul.classList.add('modal-ul');
   // Logic & Section creation
   modalSection.appendChild(divCont);
   divCont.appendChild(firstCont);
-  firstCont.appendChild(closeX);
+  firstCont.appendChild(closeXLink);
+  closeXLink.appendChild(closeX);
+  closeXLink.href = '#';
   closeX.src = arr[number].close;
   divCont.appendChild(header);
   header.innerText = arr[number].title;
@@ -145,10 +142,4 @@ function modalCreation(number) {
   }
   document.querySelectorAll('.modal-buttonsCont > button')[0].innerText = 'See Live';
   document.querySelectorAll('.modal-buttonsCont > button')[1].innerText = 'Source';
-}
-
-// eslint-disable-next-line no-lone-blocks
-modalCreation(); {
-    // eslint-disable-line 
-  // this is an Onclick function
 }
