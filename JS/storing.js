@@ -9,7 +9,7 @@ formStoreDate.addEventListener('input', () => {
   localStorage.setItem('userData', JSON.stringify(user));
 });
 
-window.addEventListener('input', () => {
+window.addEventListener('load', () => {
   if (localStorage.length > 0) {
     const userData = JSON.parse(localStorage.getItem('userData'));
     document.querySelector('.input-name').value = userData.name;
