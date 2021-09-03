@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 form.addEventListener('input', () => {
   const email = document.querySelector('.input-email').value;
   const name = document.querySelector('.input-name').value;
