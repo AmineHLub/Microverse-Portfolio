@@ -5,7 +5,7 @@ const arr = [
     close: './project-images/Icon.png',
     logo: './project-images/one.png',
     title: 'Random name for project 1',
-    tech: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+    tech: ['Ruby', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae accusamus minima et officiis vel, unde cum saepe officia, iusto eaque doloremque commodi quisquam rem nisi error illum ipsa repellat!',
     id: '1',
     link: 'https://aminehlub.github.io/Microverse-Portfolio/',
@@ -25,7 +25,7 @@ const arr = [
     close: './project-images/Icon.png',
     logo: './project-images/three.png',
     title: 'Random name for project 3',
-    tech: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+    tech: ['Ruby', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae accusamus minima et officiis vel, unde cum saepe officia, iusto eaque doloremque commodi quisquam rem nisi error illum ipsa repellat!',
     id: '3',
     link: 'https://aminehlub.github.io/Microverse-Portfolio/',
@@ -45,7 +45,7 @@ const arr = [
     close: './project-images/Icon.png',
     logo: './project-images/five.png',
     title: 'Random name for project 5',
-    tech: ['Ruby on rails', 'bootstrap', 'html', 'css'],
+    tech: ['Ruby', 'bootstrap', 'html', 'css'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae accusamus minima et officiis vel, unde cum saepe officia, iusto eaque doloremque commodi quisquam rem nisi error illum ipsa repellat!',
     id: '5',
     link: 'https://aminehlub.github.io/Microverse-Portfolio/',
@@ -157,6 +157,8 @@ function modalCreation(number) {
   document.querySelector('.child-modal-container').style.backgroundImage = `url(${arr[number].logo})`;
   document.querySelectorAll('.modal-buttonsCont a')[0].href = arr[number].link;
   document.querySelectorAll('.modal-buttonsCont a')[1].href = arr[number].source;
+  document.querySelectorAll('.modal-buttonsCont a')[0].target = '_blank';
+  document.querySelectorAll('.modal-buttonsCont a')[1].target = '_blank';
   const closefun = document.querySelector('.close-modal');
   closefun.addEventListener('click', closeModal);
 }
