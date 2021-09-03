@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.error-msg {
+  margin-bottom: 4%;
+  font-family: 'quicksand', sans-serif;
+  letter-spacing: 0.4px;
+  font-size: 15px;
+  background: #d01010;
+  border-radius: 8px;
+  padding: 7px;
+  padding-left: 70px;
+  color: white;
+  background-image: url(../src/alert.png);
+  background-repeat: no-repeat;
+  background-position: 1% 45%;
+  background-size: 10%;
+}
