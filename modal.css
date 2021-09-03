@@ -24,6 +24,8 @@
 }
 
 .child-modal-container {
+  background-color: #ececec;
+  border-radius: 8px;
   grid-area: 1 / 1 / 2 / 3;
   margin: 3% 2% 1% 1.5%;
   background-repeat: no-repeat;
