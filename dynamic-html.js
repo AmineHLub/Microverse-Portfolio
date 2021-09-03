@@ -90,6 +90,8 @@ for (let j = 8; j < 8 + iterationJ; j += 1) {
   document.querySelectorAll('li')[j].innerText = arr2[j - 7];
 }
 
+// Add buttons on click events using JS
+
 // eslint-disable-next-line no-unused-vars
 function closeModal() {
   document.querySelector('body').firstChild.remove();
@@ -161,4 +163,9 @@ function modalCreation(number) {
   document.querySelectorAll('.modal-buttonsCont a')[1].target = '_blank';
   const closefun = document.querySelector('.close-modal');
   closefun.addEventListener('click', closeModal);
+}
+
+for (let i = 0; i < arr.length; i += 1) {
+  const number = document.querySelectorAll('.articles > .flexible-items-inside-grid > button')[i].getAttribute('data-number');
+  document.querySelectorAll('.articles > .flexible-items-inside-grid > button')[i].addEventListener('click', () => { modalCreation(number); });
 }
