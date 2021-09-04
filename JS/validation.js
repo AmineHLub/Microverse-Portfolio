@@ -4,7 +4,7 @@ const errorMsg = document.createElement('span');
 
 function emailChecker(event) {
   for (let i = 0; i < email.value.length; i += 1) {
-    if (email.value !== email.value.toLowerCase()) {
+    if (email.charCodeAt() < 97 || email.charCodeAt() > 122) {
       event.preventDefault();
       document.querySelector('.input-container').insertBefore(errorMsg, document.querySelector('.input-container').firstChild);
       errorMsg.innerText = `You have entered an email that contains UPCASED letters. ( Hint use this instead : ${email.value.toLowerCase()} )`;
